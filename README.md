@@ -1,16 +1,50 @@
 # todo_app_using_sql
 
-A new Flutter project.
+This TODO application is built using Flutter and an SQL database. It allows users to add, update, read, and delete tasks, with each task having a priority level (high, medium, low).
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK: Included with Flutter
+- SQLite Database: Integrated with Flutter using the `sqflite` package
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Steps
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/yourusername/todo-app.git
+   cd todo-app
+   ```
+
+2. Install dependencies:
+
+   ```sh
+   flutter pub get
+   ```
+
+3. Run the application:
+
+   ```sh
+   flutter run
+   ```
+
+## Project Structure
+
+
+
+## Features
+
+- Add new tasks with priority levels.
+- Update existing tasks.
+- View a list of all tasks.
+- Delete tasks.
+- Filter tasks based on priority.
+
+## Videos
+
+
+https://github.com/user-attachments/assets/87e13dfa-421f-4d66-84a1-d85d8474b66a
+
